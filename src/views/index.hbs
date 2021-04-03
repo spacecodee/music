@@ -1,0 +1,22 @@
+<main class="main login">
+    <main class="login__login">
+        {{>message}}
+
+        <form action="/login" method="POST">
+            <div class="login__fields">
+                <label for="username"></label>
+                <input type="text" name="user" id="username" placeholder="Username">
+            </div>
+
+            <div class="login__fields">
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+
+            <button type="submit">
+                Iniciar Sesión
+            </button>
+        </form>
+    </main>
+    </header>
+</main>
